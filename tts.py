@@ -1,5 +1,5 @@
 from openai import OpenAI
-client = OpenAI(api_key= "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")
+client = OpenAI(api_key= "")
 
 response = client.audio.speech.create(
     model="tts-1",

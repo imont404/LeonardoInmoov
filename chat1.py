@@ -12,8 +12,8 @@ import time
 
 
 personality = "y.txt"
-openai.api_key = "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"
-client = OpenAI(api_key= "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")
+openai.api_key = ""
+client = OpenAI(api_key= "")
 #ser = serial.Serial('COM3', 9600)
 
 def obtener_duracion_mp3(archivo):

@@ -3,7 +3,7 @@ import requests
 import cv2
 from PIL import Image
 
-api_key = "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"
+api_key = ""
 
 def capture_image():
   cap = cv2.VideoCapture(0)
